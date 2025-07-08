@@ -116,7 +116,3 @@ export LAL_API_URL=https://your-lal-api.com
 curl -sSL https://raw.githubusercontent.com/yourusername/lal/main/install.sh | bash
 ```
 
-
-## License
-
-MIT 
