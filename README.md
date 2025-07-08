@@ -90,4 +90,23 @@ export OPENAI_API_KEY=your_api_key_here
 # Start server
 gunicorn -w 4 -b 0.0.0.0:5000 api_server:app
 ```
+## Self-hosting Configuration
+
+If you're running your own LAL API server, configure clients:
+
+```bash
+# Set your API endpoint
+export LAL_API_URL=https://your-lal-api.com
+
+# Install LAL client
+curl -sSL https://raw.githubusercontent.com/yourusername/lal/main/install.sh | bash
+```
+
+## Privacy and Usage Limits
+
+- Free tier: 50 commands per day per IP address
+- No user data is stored beyond daily usage statistics
+- API requests are anonymized using IP hashing
+- Commands are not logged or stored after processing
+
 
