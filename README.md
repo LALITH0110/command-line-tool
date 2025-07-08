@@ -32,20 +32,20 @@ find . -type f -size +100M
 ### Homebrew (recommended for macOS)
 
 ```bash
-brew install yourusername/tap/lal
+brew install lalith0110/lal/lal
 ```
 
 ### Direct Install (Linux/macOS)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/yourusername/lal/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/lalith0110/lal/main/install.sh | bash
 ```
 
 ### Manual Install
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/lal.git
+git clone https://github.com/lalith0110/lal.git
 cd lal
 
 # Make executable
