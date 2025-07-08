@@ -70,6 +70,7 @@ sudo ln -sf "$(pwd)/lal_cloud.sh" /usr/local/bin/lal
 - `-e, --execute`: Execute command immediately (with confirmation)
 - `--usage`: Check your daily usage statistics
 - `--help`: Show detailed help
+- `--os`: Configure your operating system
 
 ## Deploying Your Own LAL API Server
 
