@@ -71,6 +71,7 @@ sudo ln -sf "$(pwd)/lal_cloud.sh" /usr/local/bin/lal
 - `--usage`: Check your daily usage statistics
 - `--help`: Show detailed help
 - `--os`: Configure your operating system
+- `-c,--copy`: copy the command to your clipboard
 
 ## Deploying Your Own LAL API Server
 
