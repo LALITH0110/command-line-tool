@@ -31,6 +31,12 @@ find . -type f -size +100M
 brew install yourusername/tap/lal
 ```
 
+### Direct Install (Linux/macOS)
+
+```bash
+curl -sSL https://raw.githubusercontent.com/yourusername/lal/main/install.sh | bash
+```
+
 ### Manual Install
 
 ```bash
