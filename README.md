@@ -109,4 +109,6 @@ curl -sSL https://raw.githubusercontent.com/yourusername/lal/main/install.sh | b
 - API requests are anonymized using IP hashing
 - Commands are not logged or stored after processing
 
+## License
 
+MIT 
