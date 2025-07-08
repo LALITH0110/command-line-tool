@@ -114,12 +114,6 @@ export LAL_API_URL=https://your-lal-api.com
 curl -sSL https://raw.githubusercontent.com/yourusername/lal/main/install.sh | bash
 ```
 
-## Privacy and Usage Limits
-
-- Free tier: 50 commands per day per IP address
-- No user data is stored beyond daily usage statistics
-- API requests are anonymized using IP hashing
-- Commands are not logged or stored after processing
 
 ## License
 
