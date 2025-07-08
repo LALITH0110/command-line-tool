@@ -5,6 +5,10 @@ Convert natural language into shell commands using AI!
 ## Usage
 
 ```bash
+lal "command prompt you want to know"
+```
+Example:
+```bash
 lal "find large files in current directory"
 ```
 
