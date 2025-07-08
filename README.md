@@ -26,6 +26,24 @@ find . -type f -size +100M
 - **Execute**: Optional -e flag to run commands immediately
 - **Universal**: Works on any operating system (windows, macOS, Linux)
 
+## Options
+
+- `-e, --execute`: Execute command immediately (with confirmation)
+- `--usage`: Check your daily usage statistics
+- `--help`: Show detailed help
+- `--os`: Configure your operating system
+- `-c,--copy`: copy the command to your clipboard
+
+## Examples
+
+- **Git operations**: `lal "git push and create upstream branch"`
+- **Docker management**: `lal "stop all docker containers"`
+- **File operations**: `lal "find files modified in last 7 days"`
+- **Process monitoring**: `lal "what's using port 3000"`
+- **System information**: `lal "show memory and cpu usage"`
+- **Network diagnostics**: `lal "check if port 22 is open"`
+- **Text processing**: `lal "count lines in all python files"`
+
 ## Installation
 
 ### Homebrew (recommended for macOS)
@@ -54,23 +72,8 @@ chmod +x lal_cloud.sh
 sudo ln -sf "$(pwd)/lal_cloud.sh" /usr/local/bin/lal
 ```
 
-## Examples
 
-- **Git operations**: `lal "git push and create upstream branch"`
-- **Docker management**: `lal "stop all docker containers"`
-- **File operations**: `lal "find files modified in last 7 days"`
-- **Process monitoring**: `lal "what's using port 3000"`
-- **System information**: `lal "show memory and cpu usage"`
-- **Network diagnostics**: `lal "check if port 22 is open"`
-- **Text processing**: `lal "count lines in all python files"`
 
-## Options
-
-- `-e, --execute`: Execute command immediately (with confirmation)
-- `--usage`: Check your daily usage statistics
-- `--help`: Show detailed help
-- `--os`: Configure your operating system
-- `-c,--copy`: copy the command to your clipboard
 
 ## Deploying Your Own LAL API Server
 
