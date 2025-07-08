@@ -23,9 +23,8 @@ find . -type f -size +100M
 
 - **Simple**: Just type what you want to do in natural language
 - **Fast**: Get shell commands instantly
-- **No API Keys**: Powered by LAL Cloud (free tier included)
 - **Execute**: Optional -e flag to run commands immediately
-- **Universal**: Works on any Unix-like system (macOS, Linux)
+- **Universal**: Works on any operating system (windows, macOS, Linux)
 
 ## Installation
 
